@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+
+    float x=0, y=0, a=0;int z=0;
+    cout<< "Ingrese un número:"; cin >> x;
+    cout<< "Ingrese un número:"; cin >> y;
+    z=(x/y);
+    a=(x/y);
+    cout<< "Valor entero de la division: "<<z<<endl;
+    cout<< "Valor total de la division: "<<a;
+    return 0;
+}
